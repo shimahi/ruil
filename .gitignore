@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+/.cache
+/build
+/dist
+.env
+.ladle/dist
+dist/*
+pnpm-error.log
+.vscode
+tsconfig.tsbuildinfo
+styled-system
+styled-system-static
