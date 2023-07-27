@@ -14,7 +14,9 @@ export const PrimitiveButton = () => {
   return (
     <>
       <Text as="h1">Button</Text>
-      <Text>ボタン要素を扱うコンポーネント</Text>
+      <Text mt="2" fz="sm">
+        ボタン要素を扱うコンポーネント
+      </Text>
       <Separator mt={4} mb={8} />
       <Stack gap={8} p={8} pt={16}>
         <h3>default</h3>
