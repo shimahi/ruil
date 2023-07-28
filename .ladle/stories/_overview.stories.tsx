@@ -43,7 +43,7 @@ export const Index = () => {
       </Text>
 
       <A
-        href="https://github.com/studioreah/ruil"
+        href="https://github.com/shimahi/ruil"
         d="flex"
         ai="center"
         gap="1"

@@ -2,8 +2,8 @@
  * https://ladle.dev/docs/config
  */
 export default {
-  stories: ".ladle/stories/**.stories.{js,jsx,ts,tsx}",
-  outDir: ".ladle/dist",
+  stories: '.ladle/stories/**.stories.{js,jsx,ts,tsx}',
+  outDir: '.ladle/dist',
   addons: {
     mode: {
       enabled: false,
@@ -15,4 +15,4 @@ export default {
       enabled: false,
     },
   },
-};
+}

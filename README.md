@@ -2,7 +2,9 @@
 
 Reactアプリで利用できるUIライブラリです。
 
-[Panda CSS](https://panda-css.com/) によってデザインシステムを定義し、これらの基本的なコンポーネントと ヘッドレスUIライブラリである [Radix UI](https://www.radix-ui.com/) を用いた汎用UIを利用できます。
+[Panda CSS](https://panda-css.com/) によるデザインシステム設計と、ヘッドレスUIライブラリである [Radix UI](https://www.radix-ui.com/) を用いた汎用コンポーネントを利用できます。
+
+**[デモサイトはこちら](https://ui.reah.jp/)**
 
 ### ディレクトリ構成
 
@@ -19,6 +21,7 @@ Reactアプリで利用できるUIライブラリです。
 ### プレビューの起動
 
 ```bash
+$ pnpm install
 $ pnpm dev
 ```
 
@@ -26,11 +29,11 @@ $ pnpm dev
 
 ### 使い方
 
-Panda CSSの依存パッケージに加え、アプリに追加したいRadix UIのパッケージをインストールします
+ご自身のアプリに Panda CSS の依存パッケージとアプリに追加したいRadix UIのパッケージを追加します。
 
 ```bash
 $ pnpm add -D @pandacss/dev @pandacss/preset-panda postcss
-$ pnpm add @radix-ui/{必要なパッケージを指定}
+$ pnpm add @radix-ui/{必要なパッケージを指定} lucide-react
 ```
 
-`panda.config.ts` と `postcss.config.cjs` を自分のアプリに複製し、 src/下のコンポーネントのソースコードから必要なものをコピーして、アプリのデザインに合わせてカスタマイズしながらご利用ください。 （これらのコンポーネントの元のスタイルは[shadcn/ui](https://ui.shadcn.com/)を参考にしています。）
+`panda.config.ts` と `postcss.config.cjs` をご自分のアプリのソースコードに移動し、 src/下のコンポーネントのソースコードから必要なものをコピーして、アプリのデザインに合わせてカスタマイズしながらご利用ください。 （これらのコンポーネントの元のスタイルは[shadcn/ui](https://ui.shadcn.com/)を参考にしています。）
